@@ -1,0 +1,180 @@
+/* CSS DOCUMENT */
+body {
+    width: 100%;
+}
+
+body img {
+    width: 100%;
+}
+
+
+/* ------------- INDEX PAGE ------------- */
+/* three column structure */
+.column {
+    width: 33.33%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.column img {
+    width: 100%;
+}
+
+/* three nav button*/
+.options {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    text-align: center;
+}
+
+.dropdown-menu {
+    width: 150%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+/* ------------- EXERCISES PAGE ------------- */
+.bg-image {
+    width: 100%;
+}
+
+#gnav {
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    text-align: center;
+}
+
+/* ------------- GAME PAGE ------------- */
+.playbox {
+    margin: 2%;
+}
+
+#check {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5%;
+}
+
+#check input {
+    font-size:xx-large;
+    height: 10%;
+}
+
+/* ------------- GRID STRUCTURE ------------- */
+.grids p{
+    padding: 1%;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    background: #dbdfe5;
+}
+
+/* ------------- BUTTONS ------------- */
+.btn-group {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-toolbar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}
+
+.btn-primary {
+    width: 110%;
+}
+
+.btn-success {
+    width: 90%;
+}
+
+/* Reference 3D buttons: https://codepen.io/bepctak/pen/ojXjzR */
+.btn3d {
+	position: relative;
+	top: -6px;
+	border: 0;
+	transition: all 40ms linear;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.btn3d:active:focus,
+.btn3d:focus:hover,
+.btn3d:focus {
+	outline: medium none;
+}
+
+.btn3d:active,
+.btn3d.active {
+	top: 2px;
+}
+
+.btn3d.btn-white {
+	color: #666666;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255, 255, 255, 0.10) inset, 0 8px 0 0 #f5f5f5, 0 8px 8px 1px rgba(0, 0, 0, .2);
+	background-color: #fff;
+}
+
+.btn3d.btn-white:active,
+.btn3d.btn-white.active {
+	color: #666666;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, .1);
+	background-color: #fff;
+}
+
+
+.btn3d.btn-primary {
+	box-shadow: 0 0 0 1px #417fbd inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #4D5BBE, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+	background-color: #4274D7;
+}
+
+.btn3d.btn-primary:active,
+.btn3d.btn-primary.active {
+	box-shadow: 0 0 0 1px #417fbd inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+	background-color: #4274D7;
+}
+
+.btn3d.btn-success {
+	box-shadow: 0 0 0 1px #31c300 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #5eb924, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+	background-color: #78d739;
+}
+
+.btn3d.btn-success:active,
+.btn3d.btn-success.active {
+	box-shadow: 0 0 0 1px #30cd00 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+	background-color: #78d739;
+}
+
+
+/* END 3D buttons */
+
+/* ------------- MEDIA -------------*/
+h1 {
+    color: white;
+}
+
+.display-1 {
+    padding: 15%;
+    text-align: center;
+}
+
+.jumbotron-fluid {
+    background-color: transparent;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+}
+
+.card {
+    margin: 2%;
+}
